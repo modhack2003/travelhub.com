@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html::-webkit-scrollbar{
+    display: none;
+}
+
+.scrol::-webkit-scrollbar{
+    display: none;
+   
+}
+
+.Poppins {
+  font-family: "Rubik", sans-serif;
+  
+}
