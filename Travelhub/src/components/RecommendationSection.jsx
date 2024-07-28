@@ -54,13 +54,13 @@ const RecommendationSection = () => {
   ];
 
   return (
-    <div className="w-full py-8 mx-4 px-4 font-Poppins">
+    <div className="py-8 mx-4 px-4 font-Poppins">
       <h2 className="text-3xl  mb-8 ">Our recommendation</h2>
       <div className="scrol flex overflow-x-auto space-x-4 scrollbar-hide ">
         {recommendations.map((rec, index) => (
           <div key={index} className="min-w-[250px] max-w-[300px] bg-white rounded-xl shadow-md overflow-hidden  border-gray-700 border-2 ">
             <img src={rec.imageUrl} alt={rec.title} className="w-full h-40 object-cover" />
-            <div className="p-4 h-full ">
+            <div className="p-4 h-full flex flex-col  ">
               <h3 className="text-lg ">{rec.title}</h3>
               <p className="text-gray-600 text-sm">{rec.description}</p>
               <div className="flex justify-between items-center mt-2 ">

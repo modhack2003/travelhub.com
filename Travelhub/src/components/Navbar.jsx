@@ -4,9 +4,9 @@ import BookTourButton from '../constants/BookTourButton';
 
 const navItems = ['About', 'Contact', 'Blog', 'Careers'];
 
-function Navbar() {
+function Navbar( title , color ) {
   return (
-    <header className="w-full bg-transparent fixed flex gap-5 justify-between px-6 mx-4 py-6 max-md:flex-wrap max-md:px-5 font-Poppins ">
+    <header className="w-[97%] bg-transparent absolute  flex gap-5 justify-between px-6 mx-4 py-6 max-md:flex-wrap max-md:px-5 font-Poppins ">
       <h1 className="my-auto text-2xl font-medium text-white">
         Travelhub.com
       </h1>

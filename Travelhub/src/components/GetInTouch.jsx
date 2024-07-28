@@ -12,7 +12,7 @@ const GetInTouch = () => {
         <input
           type="email"
           placeholder="Your email"
-          className="bg-white text-black focus:outline-none p-2 w-[95%] rounded-xl relative"
+          className="bg-white text-black focus:outline-none p-2 pl-3 w-[95%] rounded-xl relative "
         />
         <button className="p-2 bg-black text-white rounded-xl absolute right-3">
           <svg
