@@ -1,5 +1,6 @@
 import React from 'react';
-import GetInTouch from './GetInTouch'; // Make sure the path is correct
+import GetInTouch from './GetInTouch'; 
+
 
 const Footer = () => {
   return (
