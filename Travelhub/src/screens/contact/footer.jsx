@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="flex flex-col items-center bg-black text-white py-10 mt-28">
             <h2 className="text-4xl font-bold mb-12 text-center">Travel Hub</h2>
             <div className='border border-white mb-8 w-[93%]'></div>
-            <div className="w-full ml-28 space-x-96 px-4 flex flex-col md:flex-row">
+            <div className="w-full md:ml-28 md:space-x-96 px-4 flex flex-col md:flex-row">
                 <div className="flex flex-col md:flex-row md:space-x-16 mb-8 md:mb-0">
                     <div className="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-16">
                         <div>
@@ -34,15 +34,15 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col bg-[#131313] p-4 w-[50vh]'>
+                <div className='flex flex-col bg-[#131313] p-4 md:w-[50vh]'>
                     <h3 className="text-lg font-semibold mb-2">Join Our Newsletter</h3>
                     <form className="flex flex-row">
                         <input
                             type="email"
                             placeholder="Your email address"
-                            className="p-2 rounded rounded-r-none bg-[#1E1E1E] text-white text-sm"
+                            className="p-2 rounded rounded-r-none bg-[#1E1E1E] text-white text-sm w-[70%]"
                         />
-                        <button type="submit" className="px-6 p-2 bg-black text-white rounded-l-none rounded">
+                        <button type="submit" className="px-4 p-2 bg-black text-white rounded-l-none rounded">
                             Subscribe
                         </button>
                     </form>
