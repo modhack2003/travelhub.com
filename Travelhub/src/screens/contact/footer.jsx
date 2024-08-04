@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({Title}) => {
     return (
         <footer className="flex flex-col items-center bg-black text-white py-10 mt-28">
-            <h2 className="text-4xl font-bold mb-12 text-center">Travel Hub</h2>
+            <h2 className="text-4xl font-bold mb-12 text-center">{Title}</h2>
             <div className='border border-white mb-8 w-[93%]'></div>
             <div className="w-full md:ml-28 md:space-x-96 px-4 flex flex-col md:flex-row">
                 <div className="flex flex-col md:flex-row md:space-x-16 mb-8 md:mb-0">
@@ -40,7 +40,7 @@ const Footer = () => {
                         <input
                             type="email"
                             placeholder="Your email address"
-                            className="p-2 rounded rounded-r-none bg-[#1E1E1E] text-white text-sm w-[70%]"
+                            className="p-2 rounded rounded-r-none bg-[#1E1E1E] text-white text-sm w-[70%ter]"
                         />
                         <button type="submit" className="px-4 p-2 bg-black text-white rounded-l-none rounded">
                             Subscribe
