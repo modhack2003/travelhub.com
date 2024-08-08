@@ -10,7 +10,7 @@ import { FaInstagram } from "react-icons/fa6";
 const MainBodyForm = () => {
     return (
         <div className='bg-white shadow-md mx-4 md:mx-32 mt-8 pb-10 rounded-lg flex flex-col md:flex-row relative'>
-                    <div className='overflow-hidden relative md:h-auto h-[35vh]  md:w-[35vw] md:mb-5 md:m-0 mx-8  bg-black rounded-lg md:rounded-br-none md:space-y-28'>
+                    <div className='overflow-hidden relative md:h-auto h-[55vh] w-[40vh] md:w-[35vw] md:mb-5 md:m-0 mx-8  bg-black rounded-lg md:rounded-br-none md:space-y-28'>
             <div className="text-white flex flex-col justify-center text-center md:text-start pt-6 pl-4 md:pl-8">
                 <h1 className='text-xl md:text-2xl font-semibold mb-2'>Contact Information</h1>
                 <p className='text-xs md:text-sm text-gray-300'>

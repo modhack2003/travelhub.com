@@ -1,9 +1,8 @@
 import React from "react";
 
-
 export function SeeMoreButton() {
-  return (<>
-    <button className="  justify-center p-3 px-4  bg-black text-white flex  h-auto rounded-xl ">
+  return (
+    <button className="justify-center p-3 px-4 bg-black text-white flex h-auto rounded-xl">
       <span className="mr-2">See more</span>
       <img
         loading="lazy"
@@ -12,6 +11,5 @@ export function SeeMoreButton() {
         alt=""
       />
     </button>
-    </>
   );
 }
