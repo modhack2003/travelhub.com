@@ -31,7 +31,7 @@ function Navbar() {
           <HiMenuAlt3 />
         </button>
       </div>
-      <nav className={` md:pt-0  pt-8 flex-col md:flex-row gap-12 justify-between md:text-center md:items-center text-white ${isOpen ? 'flex' : 'hidden'} md:flex w-full md:w-auto absolute md:relative top-full md:top-auto left-0 md:left-auto   md:bg-transparent z-50  backdrop-filter backdrop-blur-lg bg-opacity-10  bg-white-0 `}> 
+      <nav className={` md:pt-0  pt-8 flex-col md:flex-row gap-12 justify-between md:text-center md:items-center text-white ${isOpen ? 'flex  backdrop-filter backdrop-blur-lg bg-opacity-10  bg-white-0' : 'hidden'} md:flex w-full md:w-auto absolute md:relative top-full md:top-auto left-0 md:left-auto   md:bg-transparent z-50  `}> 
         {navItems.map((item, index) => (
           <Link key={index} to={item.path}>
             <NavItem text={item.text} />
