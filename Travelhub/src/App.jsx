@@ -4,6 +4,8 @@ import LandingPage from "./LandingPage";
 import Contactus from "./screens/Contactus";
 import Maintenance from "./screens/maintenance"
 import Careers from "./screens/careers";
+import AboutUs from "./screens/AboutUs";
+import Blog from './screens/Blog'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Route path="/contact" element={<Contactus />} />
         <Route path="*" element={<Maintenance/>}  /> 
         <Route path="/Careers" element={<Careers/>}  /> 
+        <Route path="/AboutUs" element={<AboutUs/>}  /> 
+        <Route path="/Blog" element={<Blog/>}  /> 
          </Routes>
     </Router>
   );

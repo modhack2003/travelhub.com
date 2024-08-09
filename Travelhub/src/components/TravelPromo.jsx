@@ -1,8 +1,9 @@
 import React from 'react';
-import image from '../assets/image copy 6.png'
+import image from '../assets/image copy 6.webp'
 
 const TravelPromo = () => {
   return (
+    
     <div className="max-w-screen-2xl  mx-auto my-14 p-8 flex flex-col md:flex-row gap-24 bg-white font-Poppins">
       <div className="flex-1 ">
         <img src={image} alt="Bali" className="w-full rounded-lg" />

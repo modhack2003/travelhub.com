@@ -5,7 +5,7 @@ import BookTourButton from '../constants/BookTourButton';
 import { HiMenuAlt3 } from "react-icons/hi";
 
 const navItems = [
-  { text: 'About', path: '/About' },
+  { text: 'About', path: '/AboutUs' },
   { text: 'Contact', path: '/contact' },
   { text: 'Blog', path: '/Blog' },
   { text: 'Careers', path: '/Careers' }

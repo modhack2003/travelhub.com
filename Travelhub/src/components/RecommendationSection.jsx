@@ -1,13 +1,17 @@
 // src/RecommendationSection.js
 import React from 'react';
-import image from '../assets/image.png'
-import image2 from '../assets/image copy.png'
-import image3 from '../assets/image copy 2.png'
+import image from '../assets/image.webp'
+import image2 from '../assets/image copy.webp'
+import image3 from '../assets/image copy 2.webp'
+import image4 from '../assets/eryk-piotr-munk-hZzaPrIc3xU-unsplash.webp'
+import image5 from '../assets/alla-havriushenko-7LpEmYW9YUE-unsplash copy.webp'
+
 import { CiLocationOn } from "react-icons/ci";
 import { FaRegStar } from "react-icons/fa";
 
 
 const RecommendationSection = () => {
+  
   const recommendations = [
     {
       title: 'Tanah Lot',
@@ -34,21 +38,21 @@ const RecommendationSection = () => {
         description: 'Explore the iconic Uluwatu Temple, watch mesmerizing Keack fire dances at sunset, or simply soak in the breatht...',
         location: 'Uluwatu, Badung',
         rating: 4.9,
-        imageUrl: image3, 
+        imageUrl: image, 
       },
       {
         title: 'Cliffside Serenity',
         description: 'Explore the iconic Uluwatu Temple, watch mesmerizing Keack fire dances at sunset, or simply soak in the breatht...',
         location: 'Uluwatu, Badung',
         rating: 4.9,
-        imageUrl: image3, 
+        imageUrl: image4, 
       },
       {
         title: 'Kelingking Beach',
         description: "Discover stunning natural attractions like Angel's Billabong, Kelingking Beach, and Crystal Bay, where turquoise waters meet...",
         location: 'Nusa Penida, Klungkung',
         rating: 4.7,
-        imageUrl: image2, 
+        imageUrl: image5, 
       },
     // Add more recommendations as needed
   ];

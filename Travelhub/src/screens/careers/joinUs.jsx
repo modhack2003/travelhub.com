@@ -1,5 +1,5 @@
 import React from 'react';
-import BG from '../../assets/image copy 8.png';
+import BG from '../../assets/image copy 8.webp';
 
 const JoinUs = () => {
   return (

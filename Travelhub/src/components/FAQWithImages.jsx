@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import image1 from '../assets/image copy 3.png'
-import image2 from '../assets/image copy 4.png'
-import image3 from '../assets/image copy 5.png'
+import image1 from '../assets/image copy 3.webp'
+import image2 from '../assets/image copy 4.webp'
+import image3 from '../assets/image copy 5.webp'
 const FAQWithImages = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
