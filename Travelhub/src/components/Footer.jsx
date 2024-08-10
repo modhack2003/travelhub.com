@@ -15,9 +15,9 @@ const Footer = () => {
         <div className="w-full md:w-auto flex-grow">
           <h2 className="text-xl font-semibold">Feature</h2>
           <ul className="mt-4 space-y-2">
-            <li>About</li>
+            <li><Link to= "/AboutUs">About</Link></li>
             <li>Catalog</li>
-            <li>Blog</li>
+            <li><Link to="/Blog" >Blog</Link> </li>
             <li><Link to="/contact">Contact us</Link></li>
           </ul>
         </div>

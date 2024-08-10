@@ -6,6 +6,8 @@ import Maintenance from "./screens/maintenance"
 import Careers from "./screens/careers";
 import AboutUs from "./screens/AboutUs";
 import Blog from './screens/Blog'
+import PrivacyPolicy from "./screens/privacyPolicy";
+import TermsAndConditions from './screens/TermsAndConditions'
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
         <Route path="/Careers" element={<Careers/>}  /> 
         <Route path="/AboutUs" element={<AboutUs/>}  /> 
         <Route path="/Blog" element={<Blog/>}  /> 
-         </Routes>
+        <Route path="/privacy" element={<PrivacyPolicy/>}  /> 
+        <Route path="/terms" element={<TermsAndConditions/>}  /> 
+        </Routes>
     </Router>
   );
 };

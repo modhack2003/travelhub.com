@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = ({title}) => {
 
@@ -19,18 +20,18 @@ const Footer = ({title}) => {
                         <div>
                             <h3 className="text-lg font-semibold mb-2">Company</h3>
                             <ul className="space-y-1">
-                                <li><a href="#" className="hover:underline">About</a></li>
-                                <li><a href="#" className="hover:underline">Contact</a></li>
-                                <li><a href="#" className="hover:underline">Blogs</a></li>
+                                <li><Link to="/AboutUs" className="hover:underline">About</Link></li>
+                                <li><Link to="/contact" className="hover:underline">Contact</Link></li>
+                                <li><Link to="/Blog" className="hover:underline">Blogs</Link></li>
                             </ul>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold mb-2">Legal</h3>
                             <ul className="space-y-1">
-                                <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-                                <li><a href="#" className="hover:underline">Terms & Services</a></li>
-                                <li><a href="#" className="hover:underline">Terms of Use</a></li>
-                                <li><a href="#" className="hover:underline">Refund Policy</a></li>
+                                <li><Link to="/privacy" className="hover:underline">Privacy Policy</Link></li>
+                                <li><Link to="/terms" className="hover:underline">Terms & Services</Link></li>
+                                <li><Link to="/terms"className="hover:underline">Terms of Use</Link></li>
+                                <li><Link to="/terms" className="hover:underline">Refund Policy</Link></li>
                             </ul>
                         </div>
                     </div>

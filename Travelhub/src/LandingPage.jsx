@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar";
 
 const LandingPage = () => {
   return (
-    <>
+    <div className='fade-in'>
       <Navbar />
       <Header />
       <TravelBookingCard />
@@ -20,7 +20,7 @@ const LandingPage = () => {
       <TravelPromo />
       <FAQWithImages />
       <Footer />
-    </>
+    </div>
   );
 }
 
