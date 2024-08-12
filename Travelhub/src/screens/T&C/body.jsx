@@ -3,7 +3,7 @@ import termsSections from '../../constants/termsContent';
 
 const body = () => {
   return (
-    <div className="font-Poppins text-neutral-900 p-6 md:p-16">
+    <div className="font-Poppins text-neutral-900 p-6 md:p-10 md:px-40">
       <h1 className="text-4xl md:text-6xl font-bold mb-12">Terms and Conditions</h1>
       {termsSections.map((section, index) => (
         <div key={index} className="mb-8">

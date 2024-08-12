@@ -19,7 +19,7 @@ function Navbar() {
   };
 
   return (
-    <header className={`w-full bg-transparent absolute flex flex-col md:flex-row justify-between items-center px-28 py-6 max-md:px-5 font-Poppins z-50 `}> {/* Set z-50 to ensure the header is on top */}
+    <header className={`w-full bg-transparent absolute flex flex-col md:flex-row justify-between items-center md:px-40 px-0 py-6  font-Poppins z-50 `}> {/* Set z-50 to ensure the header is on top */}
       <div className="flex justify-between items-center md:space-x-0 space-x-28">
         <h1 className="text-2xl font-medium text-white">
           Travelhub.com

@@ -41,7 +41,7 @@ image1, image2,image3
     <h2 className="text-4xl font-semibold mb-6 text-center w-[30%] ">Frequently Asked Questions
     </h2>
     </div> 
-    <div className="w-full py-8 px-4 md:px-32 grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div className="w-full py-8 px-4 md:px-36 grid grid-cols-1 lg:grid-cols-2 gap-8">
       
       <div className="lg:col-span-1">
         

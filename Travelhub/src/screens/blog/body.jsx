@@ -3,7 +3,7 @@ import { featuredPosts, editorsPicks, otherBlogs } from '../../constants/BlogLis
 
 const Body = () => {
   return (
-    <div className="font-Poppins text-neutral-900">
+    <div className="font-Poppins text-neutral-900 px-32">
       {/* Featured Posts Section */}
       <section className="mt-10 px-4 md:px-8 lg:px-16">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold mb-6 md:mb-8">Featured Posts</h2>
@@ -21,7 +21,7 @@ const Body = () => {
       </section>
 
       {/* Editor's Picks Section */}
-      <section className="mt-12 px-4 md:px-8 lg:px-16">
+      <section className="mt-12 px-4 md:px-10 lg:px-10">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold mb-6 md:mb-8">Editor's Picks</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
           {editorsPicks.map((pick, index) => (
@@ -37,7 +37,7 @@ const Body = () => {
       </section>
 
       {/* Other Blogs Section */}
-      <section className="mt-12 px-4 md:px-8 lg:px-16">
+      <section className="mt-12 px-4 md:px-8 lg:px-10">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold mb-6 md:mb-8">Other Blogs</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
           {otherBlogs.map((blog, index) => (
