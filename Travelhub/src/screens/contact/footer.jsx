@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Footer = ({title}) => {
 
     return (
-        <footer className="flex flex-col items-center bg-black text-white py-10 mt-28">
+        <footer className="flex flex-col items-center bg-black text-white py-10 md:px-20 mt-28">
             <h2 className="text-4xl font-bold mb-12 text-center">{title}</h2>
             <div className='border border-white mb-8 w-[93%]'></div>
-            <div className="w-full md:ml-28 md:space-x-96 px-4 flex flex-col md:flex-row">
+            <div className="w-full md:px-20 md:ml-10 md:space-x-96 px-4 flex flex-col md:flex-row">
                 <div className="flex flex-col md:flex-row md:space-x-16 mb-8 md:mb-0">
                     <div className="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-16">
                         <div>

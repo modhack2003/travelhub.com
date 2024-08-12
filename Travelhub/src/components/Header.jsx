@@ -30,7 +30,7 @@ const Header = () => {
   }, [progress]);
 
   return (
-    <header className="font-Poppins mb- pb-12 h-screen relative overflow-hidden">
+    <header className="font-Poppins px-16  pb-12 h-screen relative overflow-hidden">
       <img
         src={images[currentImageIndex]}
         className="object-cover w-full h-full absolute top-0 left-0"
@@ -45,7 +45,7 @@ const Header = () => {
           Bali's breathtaking landscapes, multicultural, and authentic charm.
         </p>
       </div>
-      <div className=" z-10 mx-6 px-6 md:w-[97%] flex justify-between absolute gap-80 md:top-[80vh] top-[80vh] max-md:flex-col max-md:gap-4">
+      <div className=" z-10 mx-6 px-6 md:w-[85%] flex justify-between absolute gap-80 md:top-[80vh] top-[80vh] max-md:flex-col max-md:gap-4">
         <SeeMoreButton />
         <ProgressBarWrapper progress={progress} total={totalImages} />
       </div>
