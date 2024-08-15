@@ -12,7 +12,7 @@ const body = () => {
       {/* Header Section */}
       <section className="text-center py-20 bg-black">
         <h1 className="md:text-5xl text-3xl md:font-bold font-semibold md:mb-4 mb-8 text-white">About Us</h1>
-        <p className="md:text-lg text-base text-gray-300">Discover the world with TravelHub</p>
+        <p className="md:text-lg text-base text-gray-300">Discover the world with Travelastic</p>
       </section>
 
       {/* Our Story Section */}
@@ -21,9 +21,9 @@ const body = () => {
           <div className="md:w-1/2">
             <h2 className="text-3xl font-semibold mb-6">Our Story</h2>
             <p className="text-lg mb-4">
-              TravelHub was founded with the belief that travel should be accessible to everyone. We are passionate about
+              Travelastic was founded with the belief that travel should be accessible to everyone. We are passionate about
               exploring new destinations and sharing our experiences with others. Whether you are planning a weekend getaway
-              or a round-the-world adventure, TravelHub is here to guide you every step of the way.
+              or a round-the-world adventure, Travelastic is here to guide you every step of the way.
             </p>
           </div>
           <div className="md:w-1/2 mt-10 md:mt-0">
@@ -45,7 +45,7 @@ const body = () => {
             <p className="text-lg">
               Our mission is to make travel an unforgettable experience for everyone. We believe in providing the best
               travel solutions by offering personalized recommendations, expert travel advice, and access to the best
-              destinations worldwide. At TravelHub, we are committed to helping you create memories that will last a
+              destinations worldwide. At Travelastic, we are committed to helping you create memories that will last a
               lifetime.
             </p>
           </div>

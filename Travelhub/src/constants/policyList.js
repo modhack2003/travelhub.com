@@ -79,13 +79,13 @@ const policySections = [
     {
       title: "13. Contact Us",
       content: [
-        "If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please don't hesitate to contact us at support@travelhub.com.",
+        "If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please don't hesitate to contact us at support@Travelastic.com.",
       ],
     },
     {
       title: "14. Governing Law",
       content: [
-        "This Privacy Policy and any disputes related to it will be governed by and construed in accordance with the laws of the jurisdiction in which TravelHub operates.",
+        "This Privacy Policy and any disputes related to it will be governed by and construed in accordance with the laws of the jurisdiction in which Travelastic operates.",
       ],
     },
     {

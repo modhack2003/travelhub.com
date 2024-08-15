@@ -30,7 +30,8 @@ const Navbar = ({ title, Profile, bg }) => {
     return (
         <>
             <header
-                className={`w-full ${bg} flex flex-col md:flex-row justify-between items-center  md:px-40 px-6 py-6 font-Poppins relative z-10`}
+                className={`w-full ${bg} flex flex-col md:flex-row justify-between items-center  md:px-40
+                 px-6 py-6 font-Poppins relative z-10`}
             >
                 <div className="w-full flex justify-between items-center">
                     <h1 className={`text-2xl font-medium ${getTextColor(bg)}`}>{title}</h1>

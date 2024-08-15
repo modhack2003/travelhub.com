@@ -14,7 +14,7 @@ const Footer = ({title}) => {
                             <h3 className="text-lg font-semibold mb-2">Reach us</h3>
                             <p className="text-sm">
                                 <a href="tel:+0123456789" className="block">+012 3456 789</a>
-                                <a href="mailto:travelhub@gmail.com" className="block">travelhub@gmail.com</a>
+                                <a href="mailto:Travelastic@gmail.com" className="block">Travelastic@gmail.com</a>
                             </p>
                         </div>
                         <div>

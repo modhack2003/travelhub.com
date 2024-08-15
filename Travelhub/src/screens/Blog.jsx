@@ -10,9 +10,9 @@ const Blog = () => {
   }, [])
   return (
    <div className=' font-Poppins fade-in'>
-   <Navbar title={"TravelHub"} bg={"bg-black"} />
+   <Navbar title={"Travelastic"} bg={"bg-black"} />
    <Body/>
-   <Footer title={"TravelHub"}/>
+   <Footer title={"Travelastic"}/>
    </div>
   );
 };

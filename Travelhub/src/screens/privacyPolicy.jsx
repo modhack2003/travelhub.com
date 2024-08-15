@@ -9,9 +9,9 @@ const PrivacyPolicy = () => {
   }, [])
   return (
     <div className='fade-in'>
-      <Navbar title={"Travelhub"}/>
+    <Navbar title={"Travelastic"}/>
     <Body/>
-    <Footer title={"Travelhub"}/>
+    <Footer title={"Travelastic"}/>
     </div >
   
   );

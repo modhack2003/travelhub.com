@@ -10,9 +10,9 @@ const TermsAndConditions = () => {
   }, [])
   return (
   <div className='fade-in'>
-  <Navbar title={"Travelhub"}/>
+  <Navbar title={"Travelastic"}/>
   <Body/>
-  <Footer title={"travelhub"}/> 
+  <Footer title={"Travelastic"}/> 
   
   </div>
   );

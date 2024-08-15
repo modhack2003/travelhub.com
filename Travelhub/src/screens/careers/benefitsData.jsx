@@ -7,7 +7,7 @@ import upgrade from '../../assets/image copy 12.png';
 const benefitsData = [
   {
     title: "Team work",
-    description: "At travel hub we have the best team which will support you grow towards your bright future.",
+    description: "At Travelastic we have the best team which will support you grow towards your bright future.",
     icon: team,
     bg: "bg-[#E7F2FF]"
   },

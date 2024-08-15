@@ -10,7 +10,7 @@ const Contactus = () => {
 
   return (
     <div className='fade-in flex flex-col w-full font-Poppins relative'>
-      <Navbar title={"Travel Hub"} Profile={"block"}/>
+      <Navbar title={"Travelastic"} Profile={"block"}/>
       <div className='bg-white flex flex-col justify-start items-center font-Poppins px-4 md:px-8 lg:px-16'>
         <h1 className='text-2xl md:text-3xl lg:text-4xl py-4 my-4 font-bold'>
           Contact us
@@ -20,7 +20,7 @@ const Contactus = () => {
         </p>
       </div>
       <MainBodyForm />
-      <Footer Title={"Travel Hub"} />
+      <Footer Title={"Travelastic"} />
     </div>
   );
 };

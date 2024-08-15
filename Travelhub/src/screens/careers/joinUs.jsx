@@ -12,7 +12,7 @@ const JoinUs = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">JOIN US</h1>
         <p className="mb-8 max-w-lg">
-          Join Travel Hub to enlighten your career and give you a boost for your better future.
+          Join Travelastic to enlighten your career and give you a boost for your better future.
           Checkout this page to know if you fit the best for our company.
         </p>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">

@@ -11,7 +11,7 @@ const AboutUs = () => {
   }, [])
   return (
     <div className='font-Poppins fade-in'>
-    <Nav title={"TravelHub"}/>
+    <Nav title={"Travelastic"}/>
     <Body/>
     <Footer/>
     </div>

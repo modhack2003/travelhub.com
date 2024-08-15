@@ -23,7 +23,7 @@ export const termsSections = [
     {
       title: "4. Intellectual Property",
       content: [
-        "All content provided on our services, including text, graphics, logos, and images, is the property of TravelHub or our licensors and is protected by intellectual property laws.",
+        "All content provided on our services, including text, graphics, logos, and images, is the property of Travelastic or our licensors and is protected by intellectual property laws.",
         "You may not reproduce, distribute, or create derivative works from any of our content without our express written permission."
       ],
     },
@@ -51,14 +51,14 @@ export const termsSections = [
     {
       title: "8. Limitation of Liability",
       content: [
-        "To the fullest extent permitted by law, TravelHub shall not be liable for any indirect, incidental, or consequential damages arising out of your use of our services.",
+        "To the fullest extent permitted by law, Travelastic shall not be liable for any indirect, incidental, or consequential damages arising out of your use of our services.",
         "Our liability for any direct damages shall be limited to the amount you paid, if any, for using our services."
       ],
     },
     {
       title: "9. Indemnification",
       content: [
-        "You agree to indemnify and hold TravelHub harmless from any claims, damages, or expenses arising out of your use of our services or violation of these Terms and Conditions.",
+        "You agree to indemnify and hold Travelastic harmless from any claims, damages, or expenses arising out of your use of our services or violation of these Terms and Conditions.",
         "This indemnification obligation will survive the termination of your use of our services."
       ],
     },

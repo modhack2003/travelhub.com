@@ -3,7 +3,7 @@ import { featuredPosts, editorsPicks, otherBlogs } from '../../constants/BlogLis
 
 const Body = () => {
   return (
-    <div className="font-Poppins text-neutral-900 px-32">
+    <div className="font-Poppins text-neutral-900 md:px-32">
       {/* Featured Posts Section */}
       <section className="mt-10 px-4 md:px-8 lg:px-16">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold mb-6 md:mb-8">Featured Posts</h2>
