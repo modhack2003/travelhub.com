@@ -9,7 +9,7 @@ const bookingData = [
 
 function TravelBookingCard() {
   return (
-    <section className="flex gap-5 justify-between items-center px-4 py-3  md:mx-32 mx-8 m-2 my-3 font-medium rounded-2xl border-2 border-solid bg-neutral-50 border-zinc-900 max-md:flex-wrap max-md:px-5">
+    <section className="flex gap-5 justify-between items-center px-4 py-3  md:mx-48 mx-8 m-2 my-3 font-medium rounded-2xl border-2 border-solid bg-neutral-50 border-zinc-900 max-md:flex-wrap max-md:px-5">
       {bookingData.map((item, index) => (
         <BookingInfo key={index} icon={item.icon} title={item.title} value={item.value} />
       ))}

@@ -3,8 +3,8 @@ import React from 'react';
 
 function WhoWeAre() {
   return (
-    <section className="p-10  font-Poppins ">
-      <div className="flex gap-5 max-md:flex-col">
+    <section className="p-10 px-36 font-Poppins ">
+      <div className="flex gap-2 max-md:flex-col">
       <div className="flex items-center justify-center w-[44%] max-md:ml-0 max-md:w-full">
       <h2 className=" text-5xl font-medium leading-[73.6px] text-zinc-900 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
         Who we are?

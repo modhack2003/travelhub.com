@@ -58,7 +58,7 @@ const RecommendationSection = () => {
   ];
 
   return (
-    <div className="py-8 md:mx-16 md:px-20 mx-4 px-4 font-Poppins">
+    <div className="py-8 md:mx-24 md:px-24 mx-4 px-4 font-Poppins">
       <h2 className="text-3xl  mb-8 ">Our recommendation</h2>
       <div className="scrol flex overflow-x-auto space-x-4 scrollbar-hide ">
         {recommendations.map((rec, index) => (
