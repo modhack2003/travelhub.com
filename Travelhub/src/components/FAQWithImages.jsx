@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import image1 from '../assets/image copy 3.webp'
-import image2 from '../assets/image copy 4.webp'
-import image3 from '../assets/image copy 5.webp'
+import image1 from '../assets/image copy 3.webp';
+import image2 from '../assets/image copy 4.webp';
+import image3 from '../assets/image copy 5.webp';
+
 const FAQWithImages = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -32,54 +33,50 @@ const FAQWithImages = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const images = [
-image1, image2,image3
-  ];
+  const images = [image1, image2, image3];
 
-  return (<>
-   <div className=' flex justify-center'>
-    <h2 className="text-4xl font-semibold mb-6 text-center w-[30%] ">Frequently Asked Questions
-    </h2>
-    </div> 
-    <div className="w-full py-8 px-4 md:px-48 grid grid-cols-1 lg:grid-cols-2 gap-8">
-      
-      <div className="lg:col-span-1">
-        
-        <div className="space-y-4">
-          {faqs.map((faq, index) => (
-            <div key={index} className="border-b border-gray-300 pb-4 text-start ">
-            <button
-              onClick={() => toggleFAQ(index)}
-              className="w-full text-start flex justify-start items-center py-2 text-lg font-medium text-purple-600"
-            ><p className='mr-6 items-self-start pr-4 text-xl text-rose-500'>{openIndex === index ? '-' : '+'}</p>
-              {faq.question}
-              
-            </button>
-            {openIndex === index && (
-              <p className="mt-2  ml-8 text-gray-600">{faq.answer}</p>
-            )}
+  return (
+    <>
+      <div className='flex justify-center mb-6'>
+        <h2 className="text-3xl sm:text-4xl font-semibold text-center w-full max-w-sm">Frequently Asked Questions</h2>
+      </div>
+      <div className=" my-8 py-8 px-4 mx-4 sm:mx-6 md:mx-16 lg:mx-24 xl:mx-40 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="lg:col-span-1">
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+              <div key={index} className="border-b border-gray-300 pb-4 text-start">
+                <button
+                  onClick={() => toggleFAQ(index)}
+                  className="w-full text-start flex items-center py-2 text-lg sm:text-xl font-medium text-purple-600"
+                >
+                  <p className='mr-4 text-xl text-rose-500'>{openIndex === index ? '-' : '+'}</p>
+                  {faq.question}
+                </button>
+                {openIndex === index && (
+                  <p className="mt-2 ml-4 text-gray-600">{faq.answer}</p>
+                )}
+              </div>
+            ))}
           </div>
+        </div>
+        <div className="lg:col-span-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {images.slice(0, 2).map((src, index) => (
+            <img
+              key={index}
+              src={src}
+              alt={`Travel Destination ${index + 1}`}
+              className="w-full max-w-full h-48 sm:h-64 object-cover rounded-lg shadow-md"
+            />
           ))}
+          <div className="col-span-1 sm:col-span-2">
+            <img
+              src={images[2]}
+              alt={`Travel Destination 3`}
+              className="w-full max-w-full h-48 sm:h-64 object-cover rounded-lg shadow-md"
+            />
+          </div>
         </div>
       </div>
-      <div className="lg:col-span-1 grid grid-cols-2 gap-4">
-        {images.slice(0, 2).map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt={`Travel Destination ${index + 1}`}
-            className="w-full h-64 object-cover rounded-lg shadow-md"
-          />
-        ))}
-        <div className="col-span-2">
-          <img
-            src={images[2]}
-            alt={`Travel Destination 3`}
-            className="w-full h-64 object-cover rounded-lg shadow-md"
-          />
-        </div>
-    </div>
-    </div>
     </>
   );
 };
