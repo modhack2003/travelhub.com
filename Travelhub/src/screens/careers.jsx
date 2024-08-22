@@ -13,6 +13,7 @@ const careers = () => {
   return (
    <div className='fade-in'>
 <Navbar title={""} Profile={"hidden"}/>
+
 <JoinUs/>  
 <Benefits/>
 <JobListings/>

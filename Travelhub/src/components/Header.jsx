@@ -45,7 +45,7 @@ const Header = () => {
           Bali's breathtaking landscapes, multicultural, and authentic charm.
         </p>
       </div>
-      <div className="relative z-10  px-4 sm:px-6 md:px-8 w-full max-w-screen-2xl flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center  gap-4 md:gap-6 lg:gap-8 mt-80 md:mt-80 lg:mt-80">
+      <div className="relative z-10  px-4 sm:px-6 md:px-8 w-full max-w-screen-2xl flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center  gap-4 md:gap-6 lg:gap-8 mt-60 md:mt-64 lg:mt-72">
   <SeeMoreButton />
   <ProgressBarWrapper progress={progress} total={totalImages} />
 </div>

@@ -33,8 +33,8 @@ const benefitsData = [
 
 const Benefits = () => {
   return (
-    <div className="py-16 bg-white font-Poppins">
-      <div className="flex flex-col lg:flex-row mx-4 lg:mx-40 py-12 px-4 lg:px-20">
+    <div className="py-16 bg-white font-Poppins  sm:px-10 md:px-28 lg:px-32 xl:px-40 px-6">
+      <div className="flex flex-col lg:flex-row   ">
         <div className='w-full lg:w-[200%] mb-8 lg:mb-0'>
           <h2 className="text-xl font-semibold text-gray-600 mb-2">BENEFITS</h2>
           <h3 className="text-3xl font-bold text-gray-900 mb-8">Why you Should Join Our Awesome Team</h3>

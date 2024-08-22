@@ -11,7 +11,7 @@ const jobData = [
 
 const JobListings = () => {
   return (
-    <div className="mx-4 lg:mx-28 py-10 md:px-32 font-Poppins">
+    <div className=" sm:px-10 md:px-28 lg:px-32 xl:px-40 xl:mx-2 px-6 font-Poppins">
       <h1 className="text-center text-xl font-semibold mb-10">Come Join Us</h1>
       <h2 className="text-center text-3xl font-bold mb-8 mx-auto md:mx-[50vh] h-16">Career Openings</h2>
       <div className="flex flex-col lg:flex-row">

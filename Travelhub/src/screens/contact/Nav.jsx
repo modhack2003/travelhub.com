@@ -30,7 +30,7 @@ const Navbar = ({ title, Profile, bg }) => {
     return (
         <>
             <header
-                className={`w-full ${bg} flex flex-col md:flex-row justify-between items-center  md:px-48
+                className={`w-full ${bg} flex flex-col md:flex-row justify-between items-center  sm:px-10 md:px-28 lg:px-32 xl:px-40 
                  px-6 py-6 font-Poppins relative z-10`}
             >
                 <div className="w-full flex justify-between items-center">
